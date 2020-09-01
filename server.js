@@ -6,7 +6,7 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 
 var corsOptions = {
-  origin: "*"
+  origin: "http://kasira.xyz/aiovmif/login"
 };
 
 app.use(cors(corsOptions));
